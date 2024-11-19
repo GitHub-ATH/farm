@@ -115,7 +115,7 @@ main > section > h2 {
     padding-left: .25em;
     padding-top: 1em;
 }
-main > section > h3 {
+main > section > section > h3 {
     padding: .5em;
 }
 main > section > p {
@@ -158,7 +158,16 @@ dl {
     margin-top: 1em;
     margin-bottom: 1em;
 }
+.dayhours {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .3em;
+}
 
+#copyrightheader {
+    display: none;
+}
 #copyright {
     color: var(--green);
     background-color: var(--white);
