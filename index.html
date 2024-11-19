@@ -7,18 +7,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Fiona's Farm</h1>
-        <p id="tagline">Fresh from our farm to your family table</p>
-    </header>
-    <nav>
-        <h2>Main Navigation</h2>
-        <ul>
-            <li><a href="#fruit">Fruits</a></li>
-            <li><a href="#vegetables">Vegetables</a></li>
-            <li><a id="topbutton" href="#">Top</a></ul></li>
-        </ul>
-    </nav>
+    <div class="top">
+        <header>
+            <h1 id="title">Fiona's Farm</h1>
+            <p id="tagline">Fresh from our farm to your family table</p>
+        </header>
+        <nav>
+            <h2>Main Navigation</h2>
+            <ul>
+                <li><a href="#fruits">Fruits</a></li>
+                <li><a href="#vegetables">Vegetables</a></li>
+                <li><a id="topbutton" href="#">Top</a></li>
+            </ul>
+        </nav>
+    </div>
     <main>
         <section id="fruits">
             <h2>Fruits</h2>
@@ -132,26 +134,28 @@
         </section>
     </main>
     <footer>
-        <section id="contact">
-            <h2>Contact</h2>
-            <address>
-                1234 Fake Street<br>
-                Mesa, AZ, 85111<br>
-                (480) 333 1234
-            </address>
-        </section>
-        <section id="hours">
-            <dl>
-                <dt><h2>Hours</h2></dt>
-                <dd>Monday- Closed<dd>
-                <dd>Tuesday- 6:00AM - 2:00PM</dd>
-                <dd>Wednesday- 6:00AM - 2:00PM</dd>
-                <dd>Thursday- 6:00AM - 2:00PM</dd>
-                <dd>Friday- 6:00AM - 9:00PM</dd>
-                <dd>Saturday- 6:00AM - 9:00PM</dd>
-                <dd>Sunday- 6:00AM - 5:00PM</dd>
-            </dl>
-        </section>
+        <div class="bottom">
+            <section id="contact">
+                <h2>Contact</h2>
+                <address>
+                    1234 Fake Street<br>
+                    Mesa, AZ, 85111<br>
+                    (480) 333 1234
+                </address>
+            </section>
+            <section id="hours">
+                <h2>Hours</h2>
+                <dl>
+                    <dd>Monday- Closed</dd>
+                    <dd>Tuesday- 6:00AM - 2:00PM</dd>
+                    <dd>Wednesday- 6:00AM - 2:00PM</dd>
+                    <dd>Thursday- 6:00AM - 2:00PM</dd>
+                    <dd>Friday- 6:00AM - 9:00PM</dd>
+                    <dd>Saturday- 6:00AM - 9:00PM</dd>
+                    <dd>Sunday- 6:00AM - 5:00PM</dd>
+                </dl>
+            </section>
+        </div>
         <section id="copyright">
             <p><small>Copyright 2024</small></p>
         </section>
